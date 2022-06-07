@@ -17,7 +17,7 @@ const Routes = () => {
         <Route path="/posts/new" page={PostNewPostPage} name="newPost" />
         <Route path="/posts/{id:Int}/edit" page={PostEditPostPage} name="editPost" />
         <Route path="/posts/{id:Int}" page={PostPostPage} name="post" />
-        <Route path="/posts" page={PostPostsPage} name="posts" />
+        <Route path="/" page={PostPostsPage} name="posts" />
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
