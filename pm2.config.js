@@ -1,5 +1,5 @@
 const name = 'redwood-test' // Name to use in PM2
-const repo = 'git@github.com:md-mojahed/redwood-test.git' // Link to your repo
+const repo = 'https://github.com/md-mojahed/redwood-test.git' // Link to your repo
 const user = 'mojahed' // Server user
 const path = `/home/${user}/Desktop/${name}` // Path on the server to deploy to
 const host = 'localhost' // Server hostname
